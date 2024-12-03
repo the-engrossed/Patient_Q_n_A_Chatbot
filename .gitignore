@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Environment/config files
+.env
+
+# Compiled files and caches
+__pycache__/
+*.pyc
+
+# Data files
+db/
+*.csv
+
+# System/source control files
+.DS_Store
+*.log

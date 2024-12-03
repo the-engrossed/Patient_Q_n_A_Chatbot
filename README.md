@@ -2,6 +2,9 @@
 
 ## Project Overview
 
-## Interpretation
+## ARchitecture
+![Project Diagram](architecture.png)
+
+## Tools Used
 
 ## Results
