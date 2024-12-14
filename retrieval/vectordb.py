@@ -1,7 +1,7 @@
 import os
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-from loader import load_medquad, df_to_documents
+from retrieval.loader import load_medquad, df_to_documents
 from dotenv import load_dotenv
 import time
 

@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: patient_qna_chatbot
+Version: 0.1
+Summary: A patient Q&A chatbot using LangChain, OpenAI, and Streamlit.
+Author: Your Name
+Requires-Python: >=3.8
+Requires-Dist: langchain
+Requires-Dist: openai
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: langchain_core
+Requires-Dist: langchain_community
+Requires-Dist: chromadb
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
