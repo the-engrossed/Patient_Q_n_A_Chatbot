@@ -31,7 +31,8 @@ disclaimer_prompt = PromptTemplate(
 
 faq_prompt = PromptTemplate(
     template=(
-        "Based on the following medical context, generate a concise list of frequently asked questions and their brief answers.\n"
+        "Based on the following medical context, write 3-5 Frequently Asked Questions (FAQs) and answers. "
+        "Format them as clearly separated Q&A pairs for a patient-friendly chatbot.\n"
         "Context:\n{context}\n\n"
         "FAQ:"
     ),
