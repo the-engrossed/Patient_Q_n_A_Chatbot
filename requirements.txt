@@ -7,3 +7,8 @@ chromadb
 streamlit
 langchain_openai 
 
+<<<<<<< HEAD
+=======
+
+# -e .
+>>>>>>> cf2dab4b24914c71b51385f6276be300a7aae6b0

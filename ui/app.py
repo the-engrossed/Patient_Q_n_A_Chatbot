@@ -40,7 +40,6 @@ if submitted and user_question:
                 st.write(doc.page_content)
                 st.markdown("---")
                 shown_questions.add(question)
-     
             
 
     st.subheader("Frequently Asked Questions")
