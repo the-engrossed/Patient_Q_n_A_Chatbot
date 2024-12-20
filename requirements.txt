@@ -7,5 +7,3 @@ chromadb
 streamlit
 langchain_openai 
 
-
-# -e .
