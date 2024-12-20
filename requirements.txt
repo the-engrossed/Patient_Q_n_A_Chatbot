@@ -1,0 +1,11 @@
+langchain
+openai
+pandas
+langchain_core
+langchain_community
+chromadb
+streamlit
+langchain_openai 
+
+
+# -e .
