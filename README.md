@@ -25,4 +25,52 @@ This project is a medical Question & Answer chatbot designed to assist patients 
 
 9. Git & GitHub – Version control
 
-## Results
+10. Hugging face spaces - For deployment
+
+## Project Live Link - https://huggingface.co/spaces/tanmair98/patientqnachatbot
+
+## Demo
+
+Try these sample questions once the app is running:
+
+- What are the early symptoms of diabetes?
+
+- How is hypertension diagnosed?
+
+- Can I take ibuprofen with acetaminophen?
+
+- When should I see a doctor for chest pain?
+
+## Key Features
+
+- Retrieval-Augmented Generation (RAG) with citation-backed answers
+
+- “Relevant Sources” panel with de-duplicated Q&A references
+
+- Safety guardrails:
+
+- Urgent escalation detection for emergencies
+
+- Sensitive topic handling and disclaimers
+
+- Redaction of sensitive personal information in prompts
+
+- Clean Streamlit UI for quick demos and testing
+
+## Run Locally
+
+Prerequisites:
+
+Python 3.10+
+
+OpenAI API key
+
+Steps:
+
+1. Install dependencies
+
+```
+```python
+        pip install -r requirements.txt
+```
+```
