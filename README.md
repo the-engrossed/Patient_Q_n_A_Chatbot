@@ -70,7 +70,11 @@ Steps:
 1. Install dependencies
 
 ```
-```python
-        pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
-```
+
+2. Set your environment variable (or use a .env if your code loads it)
+    - macOS/Linux:
+    ```
+    export OPENAI_API_KEY="your_key_here"
+    ```
