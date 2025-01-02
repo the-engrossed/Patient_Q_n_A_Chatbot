@@ -70,7 +70,7 @@ Steps:
 1. Install dependencies
 
 ```
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 2. Set your environment variable (or use a .env if your code loads it)
@@ -78,3 +78,50 @@ Steps:
     ```
     export OPENAI_API_KEY="your_key_here"
     ```
+    - Windows (PowerShell):
+    ```
+    setx OPENAI_API_KEY "your_key_here"
+    ```
+
+3. Start the app
+
+```
+streamlit run ui/app.py
+```
+
+## Deploy on Hugginf Face Spaces
+
+If using the Streamlit SDK Space:
+
+- Ensure these files/folders exist in the repo:
+
+    - ui/app.py
+
+    - chains/, retrieval/, utils/ (code modules)
+
+    - requirements.txt
+
+    - architecture.png (optional)
+
+- Add your OpenAI key under Settings → Secrets as:
+
+- Push changes to trigger an automatic build.
+
+If using a Docker Space, your Dockerfile entry point should look like:
+
+```
+FROM python:3.10-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 7860
+CMD ["streamlit","run","ui/app.py","--server.port","7860","--server.address","0.0.0.0"]
+```
+
+## RESULTS
+
+![Project Diagram](response1.png)
+![Project Diagram](response11.png)
+![Project Diagram](edgecase1.png)
+![Project Diagram](edgecase11.png)
