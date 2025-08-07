@@ -1,4 +1,4 @@
-# BERT_Implementation_with_Hugging_Face
+# Patient Q&A Chatbot
 
 ## Project Overview
 
